@@ -1,5 +1,5 @@
-BUILDER ?= virtualbox-iso.virtualbox
-VERSION ?= 22.05
+BUILDER ?= qemu.qemu
+VERSION ?= 23.05
 ARCH ?= x86_64
 REPO ?= nixos/nixos
 all: help
